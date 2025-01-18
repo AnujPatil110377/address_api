@@ -114,36 +114,8 @@ Compare two addresses using AI.
   "explanation": "string"
 }
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
 
-- Google Gemini AI for address comparison
-- Next.js team for the amazing framework
-- TailwindCSS for styling utilities
-
-## Support
-
-For support, please open an issue in the GitHub repository.
-
-## Deployment on Netlify
-
-1. Push your code to GitHub
-2. Connect your repository to Netlify
-3. Configure environment variables in Netlify:
-   - Go to Site settings → Environment variables
-   - Add `GOOGLE_API_KEY` with your Gemini API key
-4. Deploy your site
-
-Note: Never commit your actual API key to the repository.
