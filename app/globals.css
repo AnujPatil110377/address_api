@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.page-wrapper {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #64748b;
+}
+
+.content-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.comparison-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .page-wrapper {
+    background-color: #0f172a;
+  }
+
+  .title {
+    color: #f1f5f9;
+  }
+
+  .subtitle {
+    color: #94a3b8;
+  }
+
+  .comparison-card {
+    background: #1e293b;
+  }
+
+  .footer-text {
+    color: #94a3b8;
+  }
+}
+
+/* Form styles */
+.form-container {
+  width: 100%;
+}
+
+.address-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #334155;
+}
+
+.address-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+.submit-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.result-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+
+.result-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.result-item {
+  font-size: 0.875rem;
+}
+
+.result-label {
+  font-weight: 500;
+  margin-right: 0.5rem;
+}
+
+.match-yes {
+  color: #16a34a;
+}
+
+.match-no {
+  color: #dc2626;
+}
+
+.explanation-text {
+  color: #64748b;
+}
+
+/* Dark mode form styles */
+@media (prefers-color-scheme: dark) {
+  .input-label {
+    color: #e2e8f0;
+  }
+
+  .address-input {
+    background-color: #1e293b;
+    border-color: #334155;
+    color: #f1f5f9;
+  }
+
+  .result-box {
+    border-color: #334155;
+  }
+
+  .explanation-text {
+    color: #94a3b8;
+  }
+}
+
+/* GitHub button styles */
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #24292e;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: background-color 0.2s;
+}
+
+.github-link:hover {
+  background-color: #2c3238;
+}
+
+.github-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .github-link {
+    background-color: #383838;
+  }
+  
+  .github-link:hover {
+    background-color: #424242;
+  }
+}
